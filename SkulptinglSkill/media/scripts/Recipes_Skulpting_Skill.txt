@@ -1,0 +1,18 @@
+module Base
+{
+
+    recipe Make Mortar and Pestle
+    {
+       Plank,
+       keep [Recipe.GetItemTypes.SharpKnife],
+
+       Result:MortarPestle,
+       Sound:MakePlaster,
+       Time:50.0,
+       Category:Skulpting,
+       OnGiveXP:Recipe.OnGiveXP.Skulptingbasic,
+       Override            : true,
+    }
+
+ 
+ }
